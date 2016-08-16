@@ -1,24 +1,6 @@
 ---
 layout: post
 title: Error converting data type DBTYPE_DBTIMESTAMP to datetime2
-date: 2015-09-15 17:06:41.000000000 -05:00
-type: post
-published: true
-status: publish
-categories:
-- Programming
-tags:
-- AcuODBC
-- C#
-- DataReader
-- ETL
-- ODBC
-meta:
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '14824266562'
-  geo_public: '0'
-  _oembed_86421981a1dfd42a1cca78da5901dd2d: "{{unknown}}"
 author: Joey
 ---
 Okay, so here is a post that has been months in the making.
