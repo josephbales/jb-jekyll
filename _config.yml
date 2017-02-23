@@ -18,3 +18,7 @@ github_username:  josephbales
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title.html
+
+# Feed
+gems:
+  - jekyll-feed
