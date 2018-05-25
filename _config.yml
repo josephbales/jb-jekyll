@@ -12,7 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
   The Internet home of Joseph Bales: developer, operator, traveler, and political afficionado. Copyleft Joseph Bales. No rights reserved.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://josephbales.com" # the base hostname & protocol for your site
-twitter_username: joeydoeslife
 github_username:  josephbales
 
 # Build settings
