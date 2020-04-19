@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
   <div class="container">
-    <a href="{{ site.github.url }}/" class="navbar-brand">{{ site.title }}</a>
+    <a href="{{ site.url }}/" class="navbar-brand">{{ site.title }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,7 +10,7 @@
         {% unless page.exclude_from_nav %}
           {% if page.title %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
+            <a class="nav-link" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
           </li>
           {% endif %}
         {% endunless %}
