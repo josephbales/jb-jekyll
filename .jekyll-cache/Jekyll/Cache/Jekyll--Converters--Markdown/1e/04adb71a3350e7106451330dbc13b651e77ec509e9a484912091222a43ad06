@@ -1,0 +1,10 @@
+I"y<p>I didn’t want an entire year to go by without writing a post, so I thought that I would talk a little bit about a neat little tool I found for displaying grid data in ASP.NET MVC 5 projects. It’s called <a href="http://mvcgrid.net/" title="MVCGrid.Net">MVCGrid.Net</a>. I say “neat little tool,” but it’s actually quite powerful now that I know more about how to use it.</p>
+
+<p>For styling it uses <a href="http://getbootstrap.com/" title="Bootstrap">Bootstrap</a> so that makes it easy for me since I already use Bootstrap for basic styling. It also includes a DLL where most of the magic happens and the configuration happens in a <code class="highlighter-rouge">MVCGridConfig.cs</code> file that you include in your <code class="highlighter-rouge">App_Start</code> folder.</p>
+
+<p>It allows all kinds of automagic functionality like sorting, paging, filtering, and exporting. You can also allow customized fields and page sizes. A lot of this stuff is built in, but you can also write your own rendering engine and razor templates that will allow you to do whatever it is you want.</p>
+
+<p>One page that might get overlooked in the documentation is the Custom Razor View page. It doesn’t have a direct link on the documentation table of contents. It’s actually buried in one of the other pages, but here’s the <a href="http://mvcgrid.net/demo/customrazorview" title="Link to Custom Razor Views">link</a>.</p>
+
+<p>The best thing is that it is free, open source (using the MIT license), and fairly well documented. Check it out if you are in need of something to help you get sortable grids up and running quickly in ASP.NET MVC 5.</p>
+:ET

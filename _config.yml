@@ -16,7 +16,7 @@ github_username:  josephbales
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title:output_ext
 
 # Feed
 plugins:
