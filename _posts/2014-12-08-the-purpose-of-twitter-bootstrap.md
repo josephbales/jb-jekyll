@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The purpose of Twitter Bootstrap
-author: Joey
+author: Joseph Bales
 ---
 Okay, so I rarely make websites or blog anymore. I'll admit that I've fallen a bit out of touch with regard to the latest and greatest web technologies. But I've surprised even myself in the amount of time it has taken for me to understand <a title="Twitter Bootstrap" href="http://getbootstrap.com" target="_blank">Bootstrap</a>.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Waiting for the Bubble to Bust Again
-author: Joey
+author: Joseph Bales
 ---
 
 Time for another non-computer related post. Yesterday, my wife and I were at the bank to get pre-approved for a car loan. Her car isn't in great shape and with the check engine light coming on for unknown reasons, we figured it was time for a replacement (past time if you ask me).

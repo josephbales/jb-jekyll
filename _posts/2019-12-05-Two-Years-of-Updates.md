@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Two+ Years of Updates
-author: Joey
+author: Joseph Bales
 ---
-
 Wow, time really flies when you're having fun. It's been over two years since my last update, so let's see how some of the things I've talked about in the past have evolved.. er.. intelligently designed?
 
 * [Regarding career politicians in Tennessee]({% post_url 2013-04-21-primary-challengers-wanted %}), two out of three career politicians in Tennessee are still in office.

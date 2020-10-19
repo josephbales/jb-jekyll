@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Error converting data type DBTYPE_DBTIMESTAMP to datetime2
-author: Joey
+author: Joseph Bales
 ---
 Okay, so here is a post that has been months in the making.
 

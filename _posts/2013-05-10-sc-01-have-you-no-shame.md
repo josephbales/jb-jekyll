@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SC-01, Have you no shame?
-author: Joey
+author: Joseph Bales
 ---
 For those of you living in South Carolina's first congressional district, I have one question. Have you no shame?
 

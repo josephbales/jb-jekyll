@@ -5,11 +5,15 @@ layout: container
 
     <header>
         <h2>{{ page.title }}</h2>
-        <p><time
-                datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %}
-            • <span>{{ page.author }}</span>{% endif %}</p>
     </header>
 
     {{ content }}
 
+    <footer>
+        <p class="posted-on">
+            EOF<br>
+            $ Posted: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+            {% if page.author %} &ndash; Authored by: <span>{{ page.author }}</span>{% endif %} $
+        </p>
+    </footer>
 </article>
