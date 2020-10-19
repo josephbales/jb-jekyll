@@ -1,22 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: josephbales.com
 email: joey@josephbales.com
-description: > # this means to ignore newlines until "baseurl:"
-  The Internet home of Joseph Bales: developer, thinker, traveler, and political afficionado. Copyleft Joseph Bales. No rights reserved.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://josephbales.com" # the base hostname & protocol for your site
-github_username:  josephbales
+baseurl: ""
+url: "https://josephbales.com"
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title:output_ext
 
 # Feed
 plugins:

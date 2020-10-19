@@ -1,23 +1,19 @@
 ---
-layout: default
+layout: container
 ---
 
-<div class="home">
+<h2>Table of Contents</h2>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
+<ul>
+    {% for page in site.pages %}
+    {% unless page.exclude_from_nav %}
+    {% if page.title %}
+    <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+    {% endif %}
+    {% endunless %}
     {% endfor %}
-  </ul>
+</ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.url }}">via RSS</a></p>
-
-</div>
+<p>subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
