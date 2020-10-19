@@ -12,6 +12,5 @@ Wow, time really flies when you're having fun. It's been over two years since my
 * [Regarding the Googles]({% post_url 2014-05-17-why-im-no-longer-a-google-fanboy %}), I waffle on the Google fanboy stuff. I wouldn't say I'm a fanboy of Google, but I still use Gmail and Docs. They're damn convenient.
 * [Regarding Bootstrap]({% post_url 2014-12-08-the-purpose-of-twitter-bootstrap %}), if you're using [Angular](https://angular.io), do yourself a favor and use [Angular Material](https://material.angular.io) and skip bootstrap.
 * [Regarding .NET Core 1.0]({% post_url 2017-01-13-.NET-Core-1.0-Not-Ready-for-Primetime %}), .NET Core 2.1 and later are officially ready for primetime and getting better every day.
-* [Regarding economic bubbles]({% post_url 2017-09-22-Waiting-for-the-Bubble-to-Bust-again %}), the bubble has yet to burst, but I'm still an insensitive, priviledged jerk who will throw his good credit in your face.
 
 So what's new? I got divorced and now I am living by myself in a one bedroom apartment in Nashville, TN that costs twice what it did 10 years ago. Progress?
