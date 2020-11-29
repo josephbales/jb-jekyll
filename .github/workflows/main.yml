@@ -30,4 +30,4 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  josephbales/blog-builder-action@v0.0.1
+    - uses:  josephbales/blog-builder-action@1.0.0
