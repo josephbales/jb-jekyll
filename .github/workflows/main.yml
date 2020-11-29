@@ -30,7 +30,7 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  josephbales/blog-builder-action@1.0.1
+    - uses:  josephbales/blog-builder-action@1.0.2
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
@@ -41,4 +41,3 @@ jobs:
         destination-repository-username: 'josephbales'
         target-branch: 'master'
         deployment-files-dir: '.deployment'
-        commit-message: 'Automated deployment commit'
