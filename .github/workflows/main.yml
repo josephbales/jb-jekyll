@@ -41,3 +41,4 @@ jobs:
         destination-repository-username: 'josephbales'
         target-branch: 'master'
         deployment-files-dir: '.deployment'
+        commit-message: 'Automated deployment commit'
