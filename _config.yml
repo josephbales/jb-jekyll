@@ -3,6 +3,9 @@ title: josephbales.com
 email: joey@josephbales.com
 baseurl: ""
 url: "https://josephbales.com"
+exclude:
+  - README.md
+  - LICENSE
 
 # Build settings
 markdown: kramdown

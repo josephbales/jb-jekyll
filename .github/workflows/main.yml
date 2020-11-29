@@ -30,4 +30,16 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  josephbales/blog-builder-action@0.0.2
+    - uses:  josephbales/blog-builder-action@1.0.1
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source-directory: '_site'
+        destination-github-username: 'josephbales'
+        destination-repository-name: 'josephbales.com'
+        user-email: joseph.bales@gmail
+        destination-repository-username: 'josephbales'
+        target-branch: 'master'
+        deployment-files-dir: '.deployment'
+
+
