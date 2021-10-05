@@ -10,13 +10,12 @@ layout: container
     {{ content }}
 
     <footer>
-        <p class="posted-on">
-            ~EOF<br>
-            $ Posted: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-            {% if page.author %} &ndash; Authored by: <span>{{ page.author }}</span>{% endif %} $
+        <p>
+            Posted on <b><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></b><br>
+            {% if page.author %}Authored by <b>{{ page.author }}</b>{% endif %}
         </p>
         <p> {% assign blogPage = site.pages | where: "title", "Blog" | first %}
-            <a href="{{ blogPage.url }}">Back to blog page</a>
+            <a href="{{ blogPage.url }}">Back to Blog</a>
         </p>
     </footer>
 </article>

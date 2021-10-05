@@ -1,24 +1,13 @@
 ---
-layout: container
+layout: page
+title: Table of Contents
 ---
 
-<h2>Table of Contents</h2>
-
 <ul>
-    {% for page in site.pages %}
-    {% unless page.exclude_from_nav %}
-    {% if page.title %}
-    {% if page.title == "Blog" %}
-    <li>
-        <a href="{{ site.posts.first.url }}">Latest</a>
-    </li>
-    {% endif %}
-    <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-    {% endif %}
-    {% endunless %}
-    {% endfor %}   
+    <li><a href="{{ site.posts.first.url }}">Latest Post</a></li>
+    <li><a href="{{ "/blog" }}">Blog</a></li>
+    <li><a href="{{ "/about" }}">About</a></li>
+    <li><a href="{{ "/contact" }}">Contact</a></li>
+    <li><a href="{{ "/feed.xml" }}">RSS</a></li>
 </ul>
 
-<p>subscribe <a href="{{ "/feed.xml" }}">via RSS</a></p>
