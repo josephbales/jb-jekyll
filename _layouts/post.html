@@ -2,20 +2,21 @@
 layout: container
 ---
 <article>
-
-    <header>
-        <h2>{{ page.title }}</h2>
-    </header>
-
-    {{ content }}
-
-    <footer>
+  <header>
+    <h2 class="mt-4 mb-4">{{ page.title }}</h2>
+  </header>
+  <div class="card border-dark mb-3">
+    <div class="card-body">
+      <div class="card-text">{{ content }}</div>
+      <footer>
         <p>
-            Posted on <b><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></b><br>
-            {% if page.author %}Authored by <b>{{ page.author }}</b>{% endif %}
+          Posted on <b><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></b><br>
+          {% if page.author %}Authored by <b>{{ page.author }}</b>{% endif %}
         </p>
         <p> {% assign blogPage = site.pages | where: "title", "Blog" | first %}
-            <a href="{{ blogPage.url }}">Back to Blog</a>
+          <a href="{{ blogPage.url }}">Back to Blog</a>
         </p>
-    </footer>
+      </footer>
+    </div>
+  </div>
 </article>
