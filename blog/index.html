@@ -4,7 +4,7 @@ title: Blog
 ---
 
 {% for post in paginator.posts %}
-<div class="card border-primary mb-3" onclick="window.location = '{{ post.url }}'">
+<div class="card border-success mb-3" onclick="window.location = '{{ post.url }}'">
   <div class="card-header">{{ post.date | date: "%Y %b %d" }}</div>
   <div class="card-body">
     <h4 class="card-title">{{ post.title }}</h4>
